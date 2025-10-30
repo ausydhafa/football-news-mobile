@@ -7,11 +7,11 @@ class MyHomePage extends StatelessWidget {
     final String npm = "2406275678"; //npm
     final String kelas = "B"; //kelas
 
-     final List<ItemHomepage> items = [
-        ItemHomepage("See Football News", Icons.newspaper),
-        ItemHomepage("Add News", Icons.add),
-        ItemHomepage("Logout", Icons.logout),
-      ];
+    final List<ItemHomepage> items = [
+      ItemHomepage("See Football News", Icons.newspaper),
+      ItemHomepage("Add News", Icons.add),
+      ItemHomepage("Logout", Icons.logout),
+    ];
 
     @override
         Widget build(BuildContext context) {
@@ -90,8 +90,8 @@ class MyHomePage extends StatelessWidget {
             ),
           ),
         );
-        }
-}
+      }
+    }
 
 class InfoCard extends StatelessWidget {
   // Kartu informasi yang menampilkan title dan content.
@@ -184,7 +184,6 @@ class ItemCard extends StatelessWidget {
       ),
     );
   }
-
 }
 
 
